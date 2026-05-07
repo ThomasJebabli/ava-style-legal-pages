@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Conditions de service - Ava Style</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --bg: #f8f1e8;
+      --panel: rgba(255,255,255,0.9);
+      --panel-border: rgba(70, 42, 21, 0.10);
+      --text: #2c2018;
+      --muted: #6b5746;
+      --accent: #bf6f3d;
+      --accent-soft: rgba(191,111,61,0.12);
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Georgia, "Times New Roman", serif;
+      background:
+        radial-gradient(circle at top left, rgba(191,111,61,0.12), transparent 28%),
+        linear-gradient(180deg, #fdf9f5 0%, var(--bg) 100%);
+      color: var(--text);
+      line-height: 1.7;
+    }
+    main {
+      max-width: 920px;
+      margin: 0 auto;
+      padding: 56px 24px 80px;
+    }
+    .card {
+      background: var(--panel);
+      border: 1px solid var(--panel-border);
+      border-radius: 28px;
+      padding: 34px 34px 20px;
+      box-shadow: 0 24px 90px rgba(44,32,24,0.10);
+      backdrop-filter: blur(12px);
+    }
+    .eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      padding: 8px 14px;
+      border-radius: 999px;
+      background: var(--accent-soft);
+      color: var(--accent);
+      font-size: 14px;
+      font-weight: 700;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+    h1 {
+      font-size: clamp(34px, 6vw, 52px);
+      line-height: 1.02;
+      margin: 20px 0 14px;
+      letter-spacing: -0.03em;
+    }
+    h2 {
+      font-size: 23px;
+      margin: 30px 0 10px;
+      letter-spacing: -0.02em;
+    }
+    p, li {
+      color: var(--muted);
+      font-size: 17px;
+    }
+    ul {
+      margin: 0;
+      padding-left: 22px;
+    }
+    a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+    a:hover { text-decoration: underline; }
+    .footer {
+      margin-top: 28px;
+      padding-top: 20px;
+      border-top: 1px solid var(--panel-border);
+      font-size: 14px;
+      color: var(--muted);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <section class="card">
+      <div class="eyebrow">Ava Style · Conditions de service</div>
+      <h1>Conditions de service d'Ava Style</h1>
+      <p>
+        En utilisant Ava Style, vous acceptez les presentes conditions de service ainsi que les regles
+        applicables des plateformes et prestataires tiers relies au service.
+      </p>
+
+      <h2>1. Nature du service</h2>
+      <ul>
+        <li>Ava Style est un service d'automatisation de creation de contenu mode pour TikTok ;</li>
+        <li>le service peut generer des images, videos, scripts, couvertures et metadonnees de publication ;</li>
+        <li>certaines fonctionnalites reposent sur des APIs ou fournisseurs tiers et peuvent changer a tout moment.</li>
+      </ul>
+
+      <h2>2. Usage autorise</h2>
+      <ul>
+        <li>vous vous engagez a ne pas utiliser le service a des fins illicites, trompeuses ou frauduleuses ;</li>
+        <li>vous restez responsable des medias, prompts, comptes et contenus que vous fournissez au service ;</li>
+        <li>vous ne devez pas tenter d'acceder sans autorisation a des comptes, donnees ou integrations tierces.</li>
+      </ul>
+
+      <h2>3. Publication sur TikTok</h2>
+      <p>
+        L'utilisation des integrations TikTok suppose une autorisation expresse du titulaire du compte relie.
+        Les limitations, validations, audits et restrictions imposes par TikTok peuvent affecter la publication,
+        la visibilite ou la disponibilite des contenus.
+      </p>
+
+      <h2>4. Services tiers</h2>
+      <p>
+        Ava Style peut s'appuyer sur OpenAI, Google, TikTok et d'autres fournisseurs techniques. Le service
+        depend en partie de leurs APIs, de leur disponibilite et de leurs propres conditions d'utilisation.
+      </p>
+
+      <h2>5. Propriete et responsabilite sur les contenus</h2>
+      <p>
+        L'utilisateur garantit qu'il dispose des droits necessaires pour utiliser les images, videos, textes
+        ou autres medias fournis au service. Ava Style ne verifie pas automatiquement l'ensemble des droits
+        d'exploitation ou autorisations de tiers.
+      </p>
+
+      <h2>6. Limitation de responsabilite</h2>
+      <p>
+        Le service est fourni en l'etat, sans garantie de disponibilite continue, d'absence d'erreur,
+        ni de resultat commercial, creatif ou editorial. Les contenus generes doivent etre relus et valides
+        avant utilisation publique.
+      </p>
+
+      <h2>7. Confidentialite</h2>
+      <p>
+        L'utilisation du service implique le traitement de certaines donnees techniques et operationnelles.
+        Pour plus d'informations, consultez la
+        <a href="./privacy-policy.html">politique de confidentialite</a>.
+      </p>
+
+      <h2>8. Droit applicable et contact</h2>
+      <p>
+        Sauf disposition legale contraire, ces conditions sont regies par le droit francais.
+        Pour toute question, vous pouvez contacter
+        <a href="mailto:thomasjebabli@gmail.com">thomasjebabli@gmail.com</a>.
+      </p>
+
+      <div class="footer">
+        Derniere mise a jour : 7 mai 2026.
+      </div>
+    </section>
+  </main>
+</body>
+</html>
